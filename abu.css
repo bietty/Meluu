@@ -1,0 +1,39 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 2.5rem;
+    background-color: #000;
+}
+.card {
+    background-color: rgb(227, 182, 115);
+    padding: 2rem;
+    border-radius: 3rem;
+    box-shadow: 0 0 20px 5px rgb(131, 125, 125);
+    text-align: center;
+}
+h1 {
+    font-size: 2.5rem;
+}
+h1::before {
+    content: open-quote;
+}
+h1::after {
+    content: close-quote;
+}
+.yosi {
+    width: 80%;
+}
+.beti {
+    font-size: 1.7rem;
+    font-style: italic;
+
+}
+.bb {
+
+    width: 10rem;
+}
+.bb img {
+    padding: 3rem;
+    
+}

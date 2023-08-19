@@ -1,0 +1,65 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    background-image: url(images/photo_2021-07-24_09-35-11.jpg);
+    background-size: 100%;
+    position: relative;
+    overflow: hidden;
+}
+h1 {
+    color: rgb(189, 157, 82);
+    font-weight: 800;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin: 11rem;
+    text-align: center;
+    
+
+}
+a {
+    position: relative;
+    left: 5.5rem;
+    bottom: 45rem;
+    justify-content: end;
+    color: aliceblue;
+    font-size: 2rem;
+    text-decoration-line: none;
+    
+}
+.hi {
+    position: absolute;
+    right: 3rem;
+    top: 59vh;
+    width: 85%;
+}
+
+@media screen and (min-width: 550px){
+    body {
+        background: url(images/3d-rendering-happy-birthday-gold-podium-gift-box-black-rough-background_10876-1118.webp);
+        background-size: 100%;
+        background-repeat: repeat-y;
+        overflow: hidden;
+        position: relative;
+    }
+    h1 {
+        color: aliceblue;
+        font-family: Brush Script MT;
+        background: rgb(64, 119, 167);
+        border-radius: 30px;
+    }
+    a {
+
+    }
+    .hi {
+        width: 45%;
+        height: 30vh;
+        margin-top: -8rem;
+        position: absolute;
+        top: 60vh;
+        right: 30%;
+        
+    }
+}
+
