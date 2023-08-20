@@ -3,17 +3,18 @@ html {
 }
 body {
     margin: 2.5rem;
-    background-color: #000;
+   background: url(images/photo_2021-11-11_19-48-36.jpg);
 }
 .card {
-    background-color: rgb(227, 182, 115);
-    padding: 2rem;
+    background-color: rgb(188, 171, 115);
+    padding: 1.8rem;
     border-radius: 3rem;
     box-shadow: 0 0 20px 5px rgb(131, 125, 125);
     text-align: center;
 }
 h1 {
     font-size: 2.5rem;
+    padding-top: 1rem;
 }
 h1::before {
     content: open-quote;
@@ -23,6 +24,7 @@ h1::after {
 }
 .yosi {
     width: 80%;
+    padding: 0.3rem;
 }
 .beti {
     font-size: 1.7rem;
@@ -36,4 +38,25 @@ h1::after {
 .bb img {
     padding: 3rem;
     
+}
+
+@media screen and (min-width: 768px){
+    .body {
+        overflow: hidden;
+    }
+    .card {
+        margin: 10rem;
+    }
+    .yosi {
+        width: 60%;
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
+    .beti {
+        font-size: 2.5rem;
+    }
+    .bb {
+        width: 25rem;
+    }
 }

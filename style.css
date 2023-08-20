@@ -15,23 +15,22 @@ h1 {
     justify-content: center;
     margin: 11rem;
     text-align: center;
-    
-
 }
-a {
-    position: relative;
-    left: 5.5rem;
-    bottom: 45rem;
-    justify-content: end;
+ .naemi {
     color: aliceblue;
-    font-size: 2rem;
-    text-decoration-line: none;
-    
-}
+    position: absolute;
+    top: 55.5vh;
+    right: 13vw;
+    font-size: 1.85rem;
+    text-decoration: none;
+    background-color: rgb(44, 57, 68);
+    border-radius: 30px;
+    padding: 1rem 1rem;
+ }
 .hi {
     position: absolute;
     right: 3rem;
-    top: 59vh;
+    top: 62vh;
     width: 85%;
 }
 
@@ -49,7 +48,14 @@ a {
         background: rgb(64, 119, 167);
         border-radius: 30px;
     }
-    a {
+
+    .naemi {
+        background: rgb(148, 115, 74);
+        color: black;
+        font-size: 3rem;
+        border-radius: 30px;
+        padding: 4rem;
+        margin-bottom: 3rem;
 
     }
     .hi {
