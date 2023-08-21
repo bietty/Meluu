@@ -60,3 +60,11 @@ h1::after {
         width: 25rem;
     }
 }
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 4.3rem;
+    }
+    .yosi {
+        width: 52%;
+    }
+}

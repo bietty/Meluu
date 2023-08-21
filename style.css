@@ -45,8 +45,10 @@ h1 {
     h1 {
         color: aliceblue;
         font-family: Brush Script MT;
-        background: rgb(64, 119, 167);
+        background: rgb(157, 135, 68);
         border-radius: 30px;
+        padding: 1rem;
+        font-size: 4rem;
     }
 
     .naemi {
@@ -54,17 +56,18 @@ h1 {
         color: black;
         font-size: 3rem;
         border-radius: 30px;
-        padding: 4rem;
+        padding: 2.3rem;
         position: absolute;
-        top: 30rem;
+        top: 25rem;
+        right: 2rem;
     }
     .hi {
-        width: 45%;
+        width: 50%;
         height: 30vh;
         margin-top: -8rem;
         position: absolute;
         top: 60vh;
-        right: 30%;
+        right: 15vw;
         
     }
 }
