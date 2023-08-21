@@ -55,8 +55,8 @@ h1 {
         font-size: 3rem;
         border-radius: 30px;
         padding: 4rem;
-        margin-bottom: 3rem;
-
+        position: absolute;
+        top: 30rem;
     }
     .hi {
         width: 45%;
